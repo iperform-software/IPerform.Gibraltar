@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPerform.Gibraltar", "IPerform.Gibraltar\IPerform.Gibraltar.csproj", "{0A4D457E-7A6A-4F29-A81C-131622EBD376}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CF937DE0-5B70-465C-A7B8-B337AAED190E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A4D457E-7A6A-4F29-A81C-131622EBD376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4D457E-7A6A-4F29-A81C-131622EBD376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4D457E-7A6A-4F29-A81C-131622EBD376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4D457E-7A6A-4F29-A81C-131622EBD376}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

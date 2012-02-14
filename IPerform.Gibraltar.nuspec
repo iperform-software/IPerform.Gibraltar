@@ -1,0 +1,17 @@
+<package>
+	<metadata>
+		<id>IPerform.Gibraltar</id>
+		<version>1.2.0.0</version>
+		<authors>iPerform Software BV</authors>
+		<description>
+			Gibraltar integration aspects.
+		</description>
+		<dependencies>
+			 <dependency id="PostSharp"/>
+			 <dependency id="Gibraltar.Agent"/>
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="IPerform.Gibraltar\bin\Debug\IPerform.Gibraltar.dll" target="lib" /> 
+	</files>
+</package>
