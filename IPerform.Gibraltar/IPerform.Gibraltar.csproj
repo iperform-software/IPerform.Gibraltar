@@ -35,11 +35,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Gibraltar.Agent">
-      <HintPath>..\packages\Gibraltar.Agent.3.0.0.996\lib\Gibraltar.Agent.dll</HintPath>
+    <Reference Include="Gibraltar.Agent, Version=2.5.2.0, Culture=neutral, PublicKeyToken=ca42a1ee8d2e42d3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Tryouts\gibraltarbugs\packages\Gibraltar.Agent.2.5.2.815\lib\Gibraltar.Agent.dll</HintPath>
     </Reference>
-    <Reference Include="Gibraltar.Packager">
-      <HintPath>..\packages\Gibraltar.Agent.3.0.0.996\lib\Gibraltar.Packager.exe</HintPath>
+    <Reference Include="Gibraltar.Packager, Version=2.5.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Tryouts\gibraltarbugs\packages\Gibraltar.Agent.2.5.2.815\lib\Gibraltar.Packager.exe</HintPath>
     </Reference>
     <Reference Include="PostSharp, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b13fd38b8f9c99d7, processorArchitecture=MSIL">
       <HintPath>..\packages\PostSharp.2.1.6.4\lib\net20\PostSharp.dll</HintPath>

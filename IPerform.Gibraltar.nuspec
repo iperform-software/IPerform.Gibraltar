@@ -1,14 +1,14 @@
 <package>
 	<metadata>
 		<id>IPerform.Gibraltar</id>
-		<version>1.2.0.0</version>
+		<version>1.2.4.0</version>
 		<authors>iPerform Software BV</authors>
 		<description>
 			Gibraltar integration aspects.
 		</description>
 		<dependencies>
 			 <dependency id="PostSharp"/>
-			 <dependency id="Gibraltar.Agent"/>
+			 <dependency id="Gibraltar.Agent" version="[2.5.2.815]"/>
 		</dependencies>
 	</metadata>
 	<files>

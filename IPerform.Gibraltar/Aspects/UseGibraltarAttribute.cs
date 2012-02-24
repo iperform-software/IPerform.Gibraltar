@@ -32,10 +32,11 @@ namespace IPerform.Gibraltar.Aspects
             System.Windows.Forms.Application.EnableVisualStyles();
             System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
 
-            Log.Initializing += new Log.InitializingEventHandler(Log_Initializing);
-            Log.StartSession("Application starting.");
+            Log.Initializing += Log_Initializing;
 
             Log.DisplayStartupConsentDialog();
+
+            Log.StartSession("Application starting.");
         }
 
         void Log_Initializing(object sender, LogInitializingEventArgs e)
